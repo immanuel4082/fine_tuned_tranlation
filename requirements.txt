@@ -1,10 +1,7 @@
 gTTS==2.3.1
 mtranslate==1.8
 pandas==1.5.3
-pandas==1.4.4
 streamlit==1.21.0
-torch==1.12.1
 torch==2.0.0
 transformers==4.28.1
-transformers==4.24.0
-transformers==4.27.4
+
