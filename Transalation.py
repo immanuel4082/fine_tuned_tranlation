@@ -6,8 +6,7 @@ from gtts import gTTS
 import base64
 import pandas as pd
 from transformers import pipeline,AutoTokenizer, AutoModelForSeq2SeqLM
-import pickle
-import torch
+
 
 # Load a pretrained tokenizer for the source and target languages
 tokenizer = AutoTokenizer.from_pretrained("KigenCHESS/marian-finetuned-kde4-en-to-fr")
