@@ -3,5 +3,8 @@ mtranslate==1.8
 pandas==1.5.3
 streamlit==1.21.0
 torch==2.0.0
-transformers==4.28.1
+Transformers==4.27.4
+TensorFlow==2.11.0
+Datasets==2.1.0
+Tokenizers==0.13.2
 sentencepiece
