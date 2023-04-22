@@ -6,5 +6,5 @@ torch==2.0.0
 Transformers==4.27.4
 TensorFlow==2.11.0
 Datasets==2.1.0
-Tokenizers==0.13.2
-sentencepiece
+Tokenizers==0.13.3
+sentencepiece==0.1.98
