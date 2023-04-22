@@ -45,7 +45,7 @@ if len(inputtext) > 0 :
         with c1:
             st.text_area("PREDICTED TRANSLATED TEXT", translated_text, height=200)
 
-        #the translation below is the correct one 
+        #the translation below is the correct 
         output = translate(inputtext,selected_lang)
         with c2:
             st.text_area("CORRECT TRANSLATED TEXT",output,height=200)
