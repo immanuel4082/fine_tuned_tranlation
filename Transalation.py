@@ -9,10 +9,10 @@ from transformers import pipeline,AutoTokenizer, AutoModelForSeq2SeqLM
 
 
 # Load a pretrained tokenizer for the source and target languages
-tokenizer = AutoTokenizer.from_pretrained("KigenCHESS/marian-finetuned-kde4-en-to-fr")
+tokenizer = AutoTokenizer.from_pretrained("KigenCHESS/fine_tuned_eng-sw")
 
 # load the model 
-model = AutoModelForSeq2SeqLM.from_pretrained("KigenCHESS/marian-finetuned-kde4-en-to-fr", from_tf=True)
+model = AutoModelForSeq2SeqLM.from_pretrained("KigenCHESS/fine_tuned_eng-sw", from_tf=True)
 
 # Set up the translation pipeline using the loaded model
 translator = pipeline("translation", model=model, tokenizer=tokenizer)
